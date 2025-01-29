@@ -1,0 +1,12 @@
+{
+  "name": "@repo/database",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "prisma": "^6.3.0"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

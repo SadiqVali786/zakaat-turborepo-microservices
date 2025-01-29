@@ -1,0 +1,12 @@
+{
+  "name": "@repo/fe-common",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}
