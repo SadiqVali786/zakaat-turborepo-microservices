@@ -91,6 +91,9 @@ importers:
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
 
   apps/web-sockets-server:
     dependencies:
@@ -107,6 +110,9 @@ importers:
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
 
   apps/worker:
     dependencies:
@@ -123,6 +129,9 @@ importers:
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
+      typescript:
+        specifier: ^5.7.3
+        version: 5.7.3
 
   packages/be-common:
     devDependencies:

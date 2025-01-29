@@ -62,8 +62,8 @@ const Receiver = () => {
   if (!mounting) return <div>Mounting</div>;
 
   return (
-    <div className="min-h-screen min-w-screen flex flex-col justify-center items-center">
-      <video ref={videoRef} playsInline autoPlay muted className="fixed top-0 right-0 z-20 w-[25%]" />
+    <div className="min-w-screen flex min-h-screen flex-col items-center justify-center">
+      <video ref={videoRef} playsInline autoPlay muted className="fixed right-0 top-0 z-20 w-[25%]" />
       <video ref={remoteVideoRef} playsInline autoPlay className="object-fit h-full w-full" />
     </div>
   );
